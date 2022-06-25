@@ -20,11 +20,11 @@ const MainNavigation = () => {
               New Quote
             </NavLink>
           </li>
-          {/* <li>
-            <NavLink to="/quotes/:id" activeClassName={classes.active}>
+          <li>
+            <NavLink to="/quotes/:quotesId" activeClassName={classes.active}>
               Quote Detail
             </NavLink>
-          </li> */}
+          </li>
         </ul>
       </nav>
     </header>
